@@ -7,24 +7,49 @@
     <title>Calendar</title>
   </head>
   <body>
-    <form action="">
-      <label for="hour">
-        <span>Hour</span>
-        <input type="time" id="hour" name="hour" />
-      </label>
-      <label for="day">
-        <span>Day</span>
-        <input type="date" id="day" name="day" />
-      </label>
-      <label for="weeks">
-        <span>Week</span>
-        <input type="week" id="weeks" name="weeks" />
-      </label>
-      <label for="months">
-        <span>Month</span>
-        <input type="month" id="months" name="months" />
-      </label>
-      <input type="submit" />
-    </form>
+    <main>
+      <form action="">
+        <label for="name">
+          <span>Full Name</span>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            autocomplete="name"
+            required
+          />
+        </label>
+        <label for="email">
+          <span>Your email</span>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            autocomplete="email"
+            required
+          />
+        </label>
+        <label for="country">
+          <span>Country of birth</span>
+          <input
+            type="text"
+            name="country"
+            id="country"
+            autocomplete="country"
+            required
+          />
+        </label>
+        <label for="zip-code">
+          <span>ZipCode</span>
+          <input
+            type="text"
+            name="zip-code"
+            id="zip-code"
+            autocomplete="postal-code"
+            required
+          />
+        </label>
+      </form>
+    </main>
   </body>
 </html>
