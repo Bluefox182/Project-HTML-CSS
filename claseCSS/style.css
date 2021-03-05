@@ -1,12 +1,14 @@
+/* Etiqueta */
 p {
   color: darkblue;
   font-size: 40px;
 }
-
+/* Class */
 .paragraph {
   color: darkred;
 }
 
+/* ID */
 #Text {
   color: darkslateblue;
   font-size: 25px;
