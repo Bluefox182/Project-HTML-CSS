@@ -1,0 +1,13 @@
+p {
+  color: darkblue;
+  font-size: 40px;
+}
+
+.paragraph {
+  color: darkred;
+}
+
+#Text {
+  color: darkslateblue;
+  font-size: 25px;
+}
